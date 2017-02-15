@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/music.css"/>
+	</head>
+	<body>
+		<div id="bodyMask"></div>
+		
+		<!--左侧  - 音乐列表开始-->
+		<div id="musicList">
+			<div class="title">
+				<h3>20</h3>
+				<span>音乐列表<br />tracks</span>
+			</div>
+			<span class="close">x</span>	
+			<div class="content">
+				<ul>
+					<li data-songUrl="audio/你是我心爱的姑娘.m4a" data-songid="618116">
+						<div class="cover">
+							<img src="MusicImg/mp31.jpg"/>
+						</div>
+						<div class="song-info">
+							<p class="song">
+								<span class="text">你是我心爱的姑娘</span>
+							</p>
+							<p class="singer">汪峰</span></p>
+							<p class="song-time">04:59</p>
+						</div>
+						<div class="play-btn">
+							<span class="play-icon"></span>
+						</div>
+					</li>
+				</ul>
+				<div id="scrollBar"><span class="scroll"></span></div>
+			</div>
+		</div>
+		<!--左侧  - 音乐列表结束-->
+		
+		<!--左侧  - 音乐详情开始-->
+		<div id="musicDetail">
+			<div class="musicDetail-mask"></div>
+			<div class="top">
+				<span class="music-list-btn">音乐列表</span>
+				<span class="lyric-btn">歌词</span>
+			</div>
+			<div class="music-detail-main">
+				<div class="cover">
+					<img src="MusicImg/default_album.jpg"/>
+				</div>
+				<div class="song-info">
+					<p class="song">
+						<span class="text-bg">&nbsp;</span>
+						<span class="text">&nbsp;</span>
+					</p>
+					<p class="singer">&nbsp;</span></p>
+					<p class="song-time"><span>00:00</span> / 00:00</p>
+				</div>
+			</div>
+			<span class="music-play-loop" id="musicPlayMode"></span>
+		</div>
+		<!--左侧  - 音乐详情结束-->
+		
+		<!--底部  - 音乐功能开始-->
+		<div id="musicFunction">
+			<div class="music-progress-bar">
+				<span class="progress-all"></span>
+				<span class="progress"></span>
+				<span class="progress-mask"></span>
+			</div>
+			<div class="music-btns">
+				<span class="music-prev-btn"></span>
+				<span class="music-play-btn"></span>
+				<span class="music-next-btn"></span>
+			</div>
+		</div>
+		<!--底部  - 音乐功能结束-->
+		
+		<!--顶部- 搜索功能开始-->
+		<div id="musicSearch">
+			<input type="text" placeholder="单曲/歌手/专辑" />
+		</div>
+		<!--顶部- 搜索功能结束-->
+		
+		<!--中心 - 歌词开始-->
+		<div id="lyric">
+			<span class="close">X</span>
+			<ul class="lyric-list">
+				<!--<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>
+				<li>今晚要嗨到收场 都嗨到收场</li>-->
+			</ul>
+			<div id="lycCurrent"></div>
+		</div>
+		<!--中心 - 歌词结束-->
+		
+		<!--音频播放器开始-->
+		<audio id="oAudio" autoplay></audio>
+		<!--音频播放器结束-->
+		
+		<div id="canvas"></div>
+	</body>
+	<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.js"></script>
+	<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/music.js" type="text/javascript" charset="utf-8"></script>
+</html>

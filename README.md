@@ -35,8 +35,6 @@ mv 1004
 
 
 Full request URI: http://music.163.com/api/song/detail/?id=28377211&ids=%5B28377211%5D
-1
-Full request URI: http://music.163.com/api/song/detail/?id=28377211&ids=%5B28377211%5D
 URL：
 
 GET  http://music.163.com/api/song/detail/
@@ -53,10 +51,7 @@ ids：不知道干什么用的，用[]括起来的歌曲ID
 
 
 Full request URI: http://music.163.com/api/artist/albums/166009?id=166009&offset=0&total=true&limit=5
-1
-Full request URI: http://music.163.com/api/artist/albums/166009?id=166009&offset=0&total=true&limit=5
 URL：
-
 GET http://music.163.com/api/artist/albums/歌手ID
 
 必要参数：
@@ -69,10 +64,7 @@ limit：获取的数量(不知道为什么这个必须加上）
 
 
 Full request URI: http://music.163.com/api/album/2457012?ext=true&id=2457012&offset=0&total=true&limit=10
-1
-Full request URI: http://music.163.com/api/album/2457012?ext=true&id=2457012&offset=0&total=true&limit=10
 URL：
-
 GET http://music.163.com/api/album/专辑ID
 
  
@@ -81,10 +73,7 @@ GET http://music.163.com/api/album/专辑ID
 
 
 Full request URI: http://music.163.com/api/playlist/detail?id=37880978&updateTime=-1
-1
-Full request URI: http://music.163.com/api/playlist/detail?id=37880978&updateTime=-1
 URL：
-
 GET http://music.163.com/api/playlist/detail
 
 必要参数：
@@ -97,10 +86,7 @@ id：歌单ID
 
 
 Full request URI: http://music.163.com/api/song/lyric?os=pc&id=93920&lv=-1&kv=-1&tv=-1
-1
-Full request URI: http://music.163.com/api/song/lyric?os=pc&id=93920&lv=-1&kv=-1&tv=-1
 URL：
-
 GET http://music.163.com/api/song/lyric
 
 必要参数：
@@ -119,10 +105,7 @@ tv：值为-1，是否搜索tlyric格式
 
 
 Full request URI: http://music.163.com/api/mv/detail?id=319104&type=mp4
-1
-Full request URI: http://music.163.com/api/mv/detail?id=319104&type=mp4
 URL：
-
 GET http://music.163.com/api/mv/detail
 
 必要参数：
